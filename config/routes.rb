@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pets
   scope '/api/v1' do
     resources :games
   end
